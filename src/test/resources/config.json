@@ -1,0 +1,53 @@
+{
+  "addItems": {
+
+    "uris": [
+      "spotify:track:INVALID_TRACK_1234",
+      "spotify:track:INVALID_TRACK_5678"
+    ],
+    "position": 0
+
+  },
+  "invalidevice_id": "invalid",
+  "invalidartistId" : "invalid",
+  "invalidplayeListID": "invalid",
+  "invalidToken": "Bearer INVALID_ACCESS_TOKEN",
+  "playlistBody": {
+    "name": "My Automated Playlist",
+    "description": "A playlist created via JSON-driven API testing",
+    "public": false
+  },
+  "playlistBody2": {
+    "public": false
+  },
+  "removeItems": {
+
+    "tracks": [
+      {
+        "uri": "string"
+      }
+    ],
+    "snapshot_id": "string"
+
+  },
+
+  "updatePlayer": {
+    "context_uri": "spotify:album:5ht7ItJgpBH7W6vJ5BqpPr",
+    "offset": {
+      "position": 5
+    },
+    "position_ms": 0
+  },
+
+
+  "updateBody": {
+    "range_start": 1,
+    "insert_before": 3,
+    "range_length": 2
+  },
+  "userId": "smedjan",
+  "artistId": "0TnOYISbd1XYRBk9myaseg",
+  "validevice_id": "0d1841b0976bae2a3a310dd74c0f3df354899bc8",
+  "validplaylistID": "37i9dQZF1DWX8Y2pM16Ysc",
+  "validToken": "valid"
+}

@@ -1,0 +1,10 @@
+<suite name="Spotify API Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+    <test name="Playlist Tests">
+        <classes>
+            <class name="com.spotify.tests.PlayList" />
+        </classes>
+    </test>
+</suite>

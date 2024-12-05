@@ -1,0 +1,17 @@
+2024-12-05 13:02:41 INFO  Logs:28 - Test data loaded successfully from testData.json
+2024-12-05 13:02:41 INFO  Logs:28 - Sending {} request to: {}Posthttps://api.spotify.com/v1/users/smedjan/playlists
+2024-12-05 13:02:42 INFO  Logs:28 - Received response with status code: {}400
+2024-12-05 13:02:42 INFO  Logs:28 - Response Body: {
+  "error": {
+    "status": 400,
+    "message": "Only valid bearer authentication supported"
+  }
+}
+2024-12-05 13:02:43 INFO  Logs:28 - Sending {} request to: {}Posthttps://api.spotify.com/v1/playlists/invalid/tracks
+2024-12-05 13:02:43 INFO  Logs:28 - Received response with status code: {}400
+2024-12-05 13:02:43 INFO  Logs:28 - Response Body: {
+  "error": {
+    "status": 400,
+    "message": "Only valid bearer authentication supported"
+  }
+}
